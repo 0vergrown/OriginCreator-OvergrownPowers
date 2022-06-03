@@ -4,7 +4,7 @@ module.exports = {
 	description: "Changes the Players Health",
 	options: [{
 		title: "Health Amount",
-		question: "How much Health do you want ? _(-2 = 1 less Heart, 0 = No Change, 2 = 1 more Heart)_",
+		question: "How much Health do you want ?(0 is Normal)",
 		placeholder: "{health}"
 	}],
 	json: `{
